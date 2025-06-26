@@ -48,7 +48,7 @@ class VPNGui(QWidget):
 
         # Continue la suite de ta construction d'interface
 
-        self.setWindowTitle("SilentVPN Ultra Light")
+        self.setWindowTitle("SilentVPN")
         self.setMinimumSize(600, 400)
         self.openvpn_path = "./openvpn/openvpn.exe"
         self.process = None
